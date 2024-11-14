@@ -17,7 +17,7 @@ jobs:
         with:
           login-server: myazureacr.azurecr.io
           username: myazureacr
-          password: cjx3FaT84iAq2/0wkl7gXeUh/XqreLoO53ezyyiX4Q+ACRCisN4q
+          password: gFS+PSbyVRVU6lPxXZPwSuUT98o1EP2hdYTsvfkX6W+ACRB3Z91w
  
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v2
